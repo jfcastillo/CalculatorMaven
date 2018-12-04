@@ -78,7 +78,7 @@ public class AppTest {
 			double[] C = { 0, 3, 6, 2, 5 };
 
 			for (int i = 0; i < A.length; i++) {
-				assertEquals(cal.division(A[i], B[i]), C[i]);
+				assertEquals(cal.division(A[i], B[i]), C[i],0.1);
 
 			}
 
