@@ -34,7 +34,8 @@ public class Calculadora {
 	
 	public double division(int a, int b) {
 		//TODO desarrollar funcionalidad
-		return 0;
+		return (b!=0)?(a/b):0;
+		
 	}
 	
 	public int modulo(int a, int b) {
