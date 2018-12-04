@@ -8,7 +8,7 @@ public class Calculadora {
 		estadoFuncionalidad[0] = false;
 		estadoFuncionalidad[1] = false;
 		estadoFuncionalidad[2] = false;
-		estadoFuncionalidad[3] = false;
+		estadoFuncionalidad[3] = true;
 		estadoFuncionalidad[4] = false;
 		estadoFuncionalidad[5] = false;
 		estadoFuncionalidad[6] = false;
@@ -34,7 +34,8 @@ public class Calculadora {
 	
 	public double division(int a, int b) {
 		//TODO desarrollar funcionalidad
-		return 0;
+		return (b!=0)?(a/b):0;
+		
 	}
 	
 	public int modulo(int a, int b) {
