@@ -6,7 +6,7 @@ public class Calculadora {
 	public Calculadora() {
 		estadoFuncionalidad = new boolean[10];
 		estadoFuncionalidad[0] = false;
-		estadoFuncionalidad[1] = false;
+		estadoFuncionalidad[1] = true;
 		estadoFuncionalidad[2] = false;
 		estadoFuncionalidad[3] = true;
 		estadoFuncionalidad[4] = false;
@@ -23,8 +23,7 @@ public class Calculadora {
 	}
 
 	public int resta(int a, int b) {
-		//TODO desarrollar funcionalidad
-		return 0;
+		return (a-b);
 	}
 	
 	public long multiplicacion(int a, int b) {
