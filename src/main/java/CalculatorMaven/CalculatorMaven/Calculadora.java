@@ -8,7 +8,7 @@ public class Calculadora {
 		estadoFuncionalidad[0] = false;
 		estadoFuncionalidad[1] = false;
 		estadoFuncionalidad[2] = false;
-		estadoFuncionalidad[3] = false;
+		estadoFuncionalidad[3] = true;
 		estadoFuncionalidad[4] = false;
 		estadoFuncionalidad[5] = false;
 		estadoFuncionalidad[6] = false;
