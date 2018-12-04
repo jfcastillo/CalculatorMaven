@@ -7,7 +7,7 @@ public class Calculadora {
 		estadoFuncionalidad = new boolean[10];
 		estadoFuncionalidad[0] = false;
 		estadoFuncionalidad[1] = false;
-		estadoFuncionalidad[2] = false;
+		estadoFuncionalidad[2] = true;
 		estadoFuncionalidad[3] = false;
 		estadoFuncionalidad[4] = false;
 		estadoFuncionalidad[5] = false;
@@ -29,7 +29,7 @@ public class Calculadora {
 	
 	public long multiplicacion(int a, int b) {
 		//TODO desarrollar funcionalidad
-		return 0;
+		return a*b;
 	}
 	
 	public double division(int a, int b) {
