@@ -117,6 +117,8 @@ public class AppTest {
 			for (int i = 0; i < numerosFactoriales.length; i++) {
 				assertEquals(numerosFactoriales[i], cal.factorial(i + 1));
 			}
+			
+			assertEquals(1, cal.factorial(0));
 
 		} else {
 			assertTrue(true);
